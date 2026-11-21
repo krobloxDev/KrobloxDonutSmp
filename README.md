@@ -32,7 +32,6 @@ A DonutSMP-style survival plugin for Paper and Folia servers. It bundles the eco
 | Required plugins | [ProtocolLib](https://github.com/dmulloy2/ProtocolLib), [PlaceholderAPI](https://github.com/PlaceholderAPI/PlaceholderAPI) |
 | Optional plugins | LuckPerms, Vault, Apollo, Multiverse-Core, Floodgate, Simple Voice Chat |
 
-The pause-screen menu needs Paper 1.21.6 or newer on both server and client.
 
 ---
 
@@ -113,7 +112,7 @@ All files live in `plugins/KrobloxDonutSMP/`:
 | `duels.yml`, `ffa.yml`, `pvp.yml` | Combat modes |
 | `rtp.yml` | Random teleport and portals |
 | `staff-mode.yml`, `freeze.yml`, `invsee.yml`, `offenses.yml`, `filter.yml` | Staff and moderation |
-| `scoreboard.yml`, `dialog.yml` | Scoreboard and pause-screen menu |
+| `scoreboard.yml` | Scoreboard |
 | `database.yml` | Storage backend |
 
 Missing files and keys are added automatically on startup. Use `/kds reload` to apply changes without a restart.
